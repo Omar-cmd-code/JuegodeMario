@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugar Mario</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('fondo2.png'); /* Fondo de Mario Bros */
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: center;
+            color: white;
+        }
+        header {
+            padding: 20px;
+        }
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+        button {
+            font-size: 40px; /* Tamaño de fuente aumentado */
+            padding: 30px 60px; /* Aumentar espacio alrededor del texto */
+            margin-top: 20px;
+            background-color: #ffcc00;
+            border: none;
+            border-radius: 10px; /* Bordes más suaves */
+            cursor: pointer;
+            color: #333;
+            font-weight: bold;
+            font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* Fuente llamativa */
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+        button:hover {
+            background-color: #ffa500;
+            transform: scale(1.1); /* Efecto de agrandar al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="titulo.png" alt="Título Mario Bros">
+    </header>
+    <main>
+        <button onclick="location.href='https://scratch.mit.edu/projects/788111114/'">Jugar</button>
+    </main>
+</body>
+</html>
